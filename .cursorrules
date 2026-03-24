@@ -1,0 +1,16 @@
+# Merchant Dashboard Rules
+
+## Styling
+- Use Tailwind CSS utility classes exclusively
+- No inline styles or CSS modules
+- Follow design system tokens from @canopy/ui
+
+## Components
+- Use functional components with TypeScript
+- Props must be typed with interfaces
+- Use React Query for data fetching
+
+## State Management
+- Zustand for global state
+- React Query for server state
+- No Redux
