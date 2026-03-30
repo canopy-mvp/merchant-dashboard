@@ -1,16 +1,4 @@
-# Merchant Dashboard Rules
-
-## Styling
-- Use Tailwind CSS utility classes exclusively
-- No inline styles or CSS modules
-- Follow design system tokens from @canopy/ui
-
-## Components
-- Use functional components with TypeScript
-- Props must be typed with interfaces
-- Use React Query for data fetching
-
-## State Management
-- Zustand for global state
-- React Query for server state
-- No Redux
+You are helping with a React + TypeScript merchant dashboard.
+Use TanStack Query for data fetching.
+Use Tailwind CSS for styling — no inline styles.
+The API is at /api/ and returns { data: ... } or { error: { code, message } }.
